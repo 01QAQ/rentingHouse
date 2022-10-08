@@ -1,0 +1,341 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+/* 居中 */
+.fakeBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tabText {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	font-weight: bold;
+	font-size: 40rpx;
+	z-index: 999;
+	padding-bottom: 25rpx;
+}
+
+.homeNeck {
+	width: 100%;
+	height: 480rpx;
+	background-color: #FFFFFF;
+	background-color: cornflowerblue;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.neckBottom,
+.neckTop {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* 上半部分 */
+.neckTop {
+	width: 100%;
+	height: 170rpx;
+	margin-top: 100rpx;
+}
+
+.selectAdress {
+	margin-left: 60rpx;
+	display: flex;
+	color: white;
+}
+
+.selectDown {
+	margin-left: 20rpx;
+	margin-top: 5rpx;
+	width: 35rpx;
+	height: 25rpx;
+}
+
+.selectDown image {
+	width: 100%;
+	height: 100%;
+}
+
+.search {
+	width: 60%;
+	height: 80rpx;
+	border-radius: 50rpx;
+	margin-right: 40rpx;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+}
+
+.inputBox {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.inputBox-left {
+	width: 20px;
+	height: 20px;
+	margin-left: 20rpx;
+}
+
+.inputBox-left image {
+	width: 100%;
+	height: 100%;
+}
+
+/*下半部分*/
+.neckBottom {
+	width: 100%;
+	height: 210rpx;
+	bottom: 0;
+}
+
+/* 宣传标语 */
+.slogan {
+	width: 60%;
+	height: 100%;
+	color: white;
+	padding-left: 50rpx;
+	display: flex;
+	font-family: Microsoft Yahei;
+	flex-direction: column;
+}
+
+.text1 {
+	font-size: 27rpx;
+
+}
+.swiper-item{
+	width: 100%;
+	height: 800px;
+}
+.text2 {
+	margin-top: 20rpx;
+	font-size: 40rpx;
+}
+swiper {
+    display: block;
+    height: 2500rpx !important;
+}
+.fakeBtn {
+	width: 120rpx;
+	height: 40rpx;
+	background-color: white;
+	color: #0182ff;
+	border-radius: 10rpx;
+	font-size: 25rpx;
+	margin-top: 20rpx;
+}
+
+.inputBg {
+	width: 400rpx;
+	height: 100%;
+	display: flex;
+}
+
+.inputBg image {
+	width: 100%;
+	height: 100%;
+}
+
+.selectServiceBox {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.swiper-item{
+	height: 400rpx;
+}
+
+.selectServiceTitle {
+	width: 100%;
+	height: 120rpx;
+	display: flex;
+	padding-left: 30rpx;
+	align-items: center;
+	font-size: 40rpx;
+}
+
+.serviceList {
+	width: 93%;
+	height: 340rpx;
+	border-radius: 20rpx;
+	display: flex;
+	background-color: #FFFFFF;
+	box-shadow: 0.2px 0.2px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+scroll-view {
+	white-space: nowrap;
+	margin-right: 50rpx;
+}
+uni-swiper{
+/* 	height: 80vh; */
+}
+
+.nav-bar-wrap {
+	display: flex;
+	align-items: space-around;
+	flex-flow: column wrap;
+	height: 400rpx;
+}
+
+.serviceBox {
+	width: 115rpx;
+	display: flex;
+	height: 125rpx;
+	margin-left: 50rpx;
+	margin-top: 30rpx;
+	position: relative;
+	flex-direction: column;
+	align-items: center;
+	font-size: 20rpx;
+	color: #000000;
+	justify-content: space-around;
+}
+
+.serviceImgBox {
+	width: 100rpx;
+	height: 100rpx;
+}
+
+.serviceImgBox image {
+	width: 100%;
+	height: 100%;
+}
+
+.Hiding {
+	width: 100%;
+	height: 100rpx;
+	font-size: 40rpx;
+	display: flex;
+	padding-left: 20rpx;
+	padding-top: 30rpx;
+	font-weight: bold;
+}
+
+.Hiding_left,
+.Hiding_right {
+	display: flex;
+	align-items: center;
+	bottom: 30rpx;
+	flex-direction: column;
+	margin-left: 25rpx;
+}
+
+.isHiding_left,
+.isHiding_right {
+	color: #ccc;
+	display: flex;
+	align-items: center;
+
+	flex-direction: column;
+	margin-left: 25rpx;
+}
+
+.boldLine {
+	width: 0rpx;
+	height: 10rpx;
+	margin-top: 10rpx;
+	border-radius: 5rpx;
+	transition: 0.5s;
+	background-color: black;
+	background-position: center, center;
+}
+
+.isBoldLine {
+	width: 50rpx;
+	height: 10rpx;
+	margin-top: 10rpx;
+	border-radius: 5rpx;
+	transition: 0.1s;
+	background-color: #000000;
+	background-position: center, center;
+}
+
+.house_list_box_l,
+.house_list_box_r {
+	width: 100%;
+	border-radius: 10rpx;
+	background-color: #f6f6f6;
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+	padding: 20rpx;
+
+}
+._tabs_box{
+	width: 100%; 
+	margin-top: 25rpx;
+	background: linear-gradient(#fff #f0f0f0);
+}
+._swiper_box{
+	width: 100%;
+	/* display: flex; */
+}
+
+.homeList {
+	width: 45%;
+	margin-top: 30rpx;
+	border-radius: 10rpx;
+	display: flex;
+	overflow: hidden;
+	
+	flex-direction: column;
+	background-color: #FFFFFF;
+	align-items: center;
+	padding-bottom: -35rpx;
+}
+
+.home_pic {
+	width: 100%;
+	position: relative;
+}
+
+.home_pic image {
+	width: 100%;
+	overflow: hidden;
+}
+
+.home_text {
+	width: 80%;
+	position: absolute;
+	color: white;
+	overflow: hidden;
+	left: 40rpx;
+	bottom: 20rpx;
+	right: 40rpx;
+}
+
+.home_price {
+	width: 90%;
+	color: red;
+	font-size: 40rpx;
+	height: 50rpx;
+}
+
+.home_info {
+	width: 90%;
+	height: 40rpx;
+	display: flex;
+	align-items: center;
+}
+
+.home_address {
+	width: 90%;
+	font-size: 25rpx;
+	color: #ccc;
+}

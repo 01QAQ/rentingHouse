@@ -1,0 +1,134 @@
+page {
+	background-color: #f6f6f6;
+
+}
+
+.head {
+	width: 100%;
+	height: 250rpx;
+	margin-top: 100rpx;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.head_left {
+	display: flex;
+	align-items: center;
+	margin-left: 50rpx;
+	justify-content: space-between;
+}
+
+.head_img {
+	width: 140rpx;
+	height: 140rpx;
+	border: 2rpx solid white;
+	border-radius: 50%;
+	transition: 0.5s;
+	overflow: hidden;
+}
+
+.head_img image {
+	width: 100%;
+	height: 100%;
+}
+
+.userInfo {
+	height: 300rpx;
+	width: 180rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 20rpx;
+	padding-top: 20rpx;
+
+}
+
+.useName {
+
+	font-size: 40rpx;
+}
+
+.userNum {
+	margin-top: 25rpx;
+	font-size: 20rpx;
+}
+
+.head_right {
+	width: 50rpx;
+	height: 50rpx;
+	margin-right: 30rpx;
+}
+
+.head_right image {
+	width: 100%;
+	height: 100%;
+}
+
+.mine_common{
+	width: 95%;
+	height: 450rpx;
+	background-color: #ffffff;
+	border-radius: 10rpx;
+	margin: 0 auto;
+	display: flex;
+	padding-bottom: 20rpx;
+	justify-content: center;
+	flex-direction: column;
+}
+
+._title {
+	width: 100%;
+	font-size: 35rpx;
+	padding: 20rpx 0 20rpx 30rpx;
+	font-weight: bold;
+}
+
+.mine_common_tab,
+.mine_more_tab{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+._com_list,
+._more_list{
+	width: 140rpx;
+	height: 150rpx;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+._com_list_img,
+._more_list_img {
+	width: 80rpx;
+	height: 80rpx;
+}
+
+._com_list_img image,
+._more_list_img image {
+	width: 100%;
+	height: 100%;
+}
+
+._com_list_text {
+	font-size: 25rpx;
+}
+.mine_more {
+	width: 95%;
+	height: 300rpx;
+	background-color: #ffffff;
+	border-radius: 10rpx;
+	margin: 0 auto;
+	display: flex;
+	margin-top: 30rpx;
+	padding-bottom: 20rpx;
+	justify-content: center;
+	flex-direction: column;
+}
+{
+	display: flex;
+}

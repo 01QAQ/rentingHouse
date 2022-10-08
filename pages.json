@@ -1,0 +1,57 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	// 单独配置
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/homePage/homePage",
+			"style": {
+				"navigationBarTitleText": "",
+				"backgroundColor": "#F8F8F8"
+			}
+		}
+
+		, {
+			"path": "pages/Mine/Mine",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"backgroundColor": "#F6F6F6"
+			}
+
+		}, {
+			"path": "pages/LookFor/LookFor",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	// 全局
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		//顶部的导航栏  ，"custom"取消导航栏
+		"navigationStyle": "custom"
+
+	},
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/homePage/homePage",
+				"iconPath": "static/image/homePage.png",
+				"selectedIconPath": "static/image/ishomePage.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/Mine/Mine",
+				"iconPath": "static/image/mine.png",
+				"selectedIconPath": "static/image/ismine.png",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
